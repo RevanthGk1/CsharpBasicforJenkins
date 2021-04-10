@@ -10,7 +10,7 @@ namespace CsharpBasicforJenkins
     {
         static void Main(string[] args)
         {
-            Console.Write("Main Hello");
+            Console.Write("Main-Hello");
             Console.WriteLine(createMessage());
         }
 
