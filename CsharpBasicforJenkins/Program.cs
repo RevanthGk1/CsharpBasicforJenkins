@@ -10,7 +10,7 @@ namespace CsharpBasicforJenkins
     {
         static void Main(string[] args)
         {
-            //sample checkin 7 working
+            //sample checkin 8 with nrok
             Console.Write("Main-Hello");
             Console.WriteLine(createMessage());
         }
