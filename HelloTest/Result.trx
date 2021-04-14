@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="39d15631-2c38-44aa-8e69-389aa019dc5d" name="SYSTEM@RUSHANTH-LAPTOP 2021-04-14 13:28:48" runUser="NT AUTHORITY\SYSTEM" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="54a41b3d-dbb9-4277-9f12-f1e6de2a2b85">
+    <Deployment userDeploymentRoot="C:\Users\Revanth\source\repos\CsharpBasicforJenkins\HelloTest" useDefaultDeploymentRoot="false" runDeploymentRoot="SYSTEM_RUSHANTH-LAPTOP 2021-04-14 13_28_48" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Properties />
+  </TestSettings>
+  <Times creation="2021-04-14T13:28:48.0241618+02:00" queuing="2021-04-14T13:28:48.0241618+02:00" start="2021-04-14T13:28:48.0241618+02:00" finish="2021-04-14T13:28:49.1228824+02:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="1" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="RUSHANTH-LAPTOP" outcome="Error" timestamp="2021-04-14T13:28:49.1169212+02:00">
+        <Text>Failed to queue test run 'SYSTEM@RUSHANTH-LAPTOP 2021-04-14 13:28:48': The directory name is invalid</Text>
+        <Exception>System.ComponentModel.Win32Exception (0x80004005): The directory name is invalid
+   at Microsoft.VisualStudio.TestTools.TestManagement.LocalControllerProxy.PrepareProcess(TestRun run)
+   at Microsoft.VisualStudio.TestTools.TestManagement.LocalControllerProxy.InitializeController(TestRun run)
+   at Microsoft.VisualStudio.TestTools.TestManagement.ControllerProxy.QueueTestRunWorker(Object state)</Exception>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="createMessageEqualTest" storage="c:\users\revanth\source\repos\csharpbasicforjenkins\hellotest\bin\debug\hellotest.dll" id="fa4e3469-c6a8-b240-34a0-fe6ae4a1a228">
+      <Execution id="d4020326-a3e8-436c-80a0-66a9a2582f09" />
+      <TestMethod codeBase="C:/Users/Revanth/source/repos/CsharpBasicforJenkins/HelloTest/bin/Debug/HelloTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HelloTest.UnitTest1, HelloTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="createMessageEqualTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="fa4e3469-c6a8-b240-34a0-fe6ae4a1a228" executionId="d4020326-a3e8-436c-80a0-66a9a2582f09" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d4020326-a3e8-436c-80a0-66a9a2582f09" testId="fa4e3469-c6a8-b240-34a0-fe6ae4a1a228" testName="createMessageEqualTest" computerName="RUSHANTH-LAPTOP" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d4020326-a3e8-436c-80a0-66a9a2582f09">
+    </UnitTestResult>
+  </Results>
+</TestRun>

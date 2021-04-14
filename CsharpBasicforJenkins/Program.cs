@@ -17,7 +17,7 @@ namespace CsharpBasicforJenkins
 
         public static string createMessage()
         {
-            return "Hello Message New checkin";
+            return "Hello Message";
         }
     }
 }
